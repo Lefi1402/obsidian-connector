@@ -1,0 +1,14 @@
+{
+  "name": "obsidian-connector",
+  "owner": {
+    "name": "Leon Rebholz"
+  },
+  "plugins": [
+    {
+      "name": "obsidian-vault",
+      "source": "./",
+      "description": "MCP-Verbindung zum Obsidian-Leon-Vault über das Local-REST-API-Plugin",
+      "version": "1.0.0"
+    }
+  ]
+}

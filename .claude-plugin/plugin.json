@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "obsidian-vault",
+  "description": "Direkter Lese-/Schreibzugriff auf den Obsidian-Leon-Vault via Local REST API + MCP.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": ["obsidian", "vault", "notes", "mcp"],
+  "skills": [],
+  "agents": [],
+  "mcpServers": {
+    "obsidian-vault": {
+      "type": "http",
+      "url": "http://127.0.0.1:27123/mcp/",
+      "headers": {
+        "Authorization": "Bearer ${OBSIDIAN_API_KEY}"
+      }
+    }
+  }
+}
